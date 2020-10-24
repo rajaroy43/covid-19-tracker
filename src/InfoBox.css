@@ -1,0 +1,50 @@
+.infobox{
+    background-color: white;
+    flex: 1;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.infobox:not(:last-child){
+    margin-right: 15px;
+}
+
+.infobox__title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: #555;
+    font-weight: normal;
+}
+
+.infobox__cases{
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.infobox__total{
+    color: #6c757d;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.infobox--selected{
+    border-top: 10px solid greenyellow;
+}
+
+.infoBox--red{
+    border-color: red;
+}
+
+.infobox__cases--green{
+    color: lightgreen;
+}
+
+@media(max-width:990px){
+    .infobox:not(:last-child){
+        margin-bottom: 20px;
+    }
+}

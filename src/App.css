@@ -1,0 +1,48 @@
+.app{
+  background-color: #f5f6fa;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app__left{
+  flex: 0.9;
+}
+
+.app__right{
+  background-color: white;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.app__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.app__header>h1{
+  color: tomato;
+  font-size: 2rem;
+}
+
+.app__stats{
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__right .app__rightLiveCase{
+  padding-top: 20px;
+}
+
+@media(max-width:990px){
+  .app{
+    flex-direction: column;
+  }
+  .app__dropdown{
+    width: 200px;
+  }
+.app__stats{
+  flex-direction: column;
+}
+}

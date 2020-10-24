@@ -1,0 +1,8 @@
+.lineGraph{
+    padding-top: 20px;
+    flex-grow: 1;
+}
+.lineGraph .chartjs-render-monitor{
+    height: 100% !important;
+    
+}
